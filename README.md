@@ -7,3 +7,8 @@ This contains the modules for the Phi programming language.
 
 - ## [math](math)
 This module provides mathematical functions and constants. It is included by default in every program. See [math examples](math/example.phi) for more info.
+
+- ## [debug](debug)
+This module provides functions to debug your code and print information, error, log and warning messages.
+
+[back to top](README.md)
