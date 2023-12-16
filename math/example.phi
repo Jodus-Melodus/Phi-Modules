@@ -1,0 +1,29 @@
+import math
+
+output(math.pi)
+
+output(math.phi)
+
+output(math.e)
+
+output(math.root(16, 2))
+
+output(math.abs(0-2))
+
+output(math.power(4, 2))
+
+output(math.round(math.pi, 5))
+
+output(math.floor(2.712))
+
+output(math.ceil(3.12))
+
+output(math.factorial(4))
+
+output(math.gcd(12.0, 36.0))
+
+output(math.lcm(12.0, 36.0))
+
+output(math.rad(231.32))
+
+output(math.deg(21.3))
