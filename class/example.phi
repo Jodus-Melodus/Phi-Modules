@@ -1,0 +1,18 @@
+import class    # Import the module
+
+# Define the attributes
+class.attrs = ['name', 'age', 'sayHi']
+
+# Display the attributes
+output(class.attrs)
+
+
+# Define the values of the new instance
+lambda sayHi = fn ~(){<- "hi"}
+array values = ["John", 32, sayHi]
+
+# Construct/Initialize the instance
+obj person = class.init(values)
+
+# Use the new instance/object
+output(person)

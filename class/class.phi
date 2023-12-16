@@ -1,0 +1,17 @@
+export obj class = {
+	init:fn ~(values){
+
+		if (classes.attrs.length() != values.length()){
+			throw syntaxError
+		}
+
+        obj cls = {}
+
+		for (int i, i < values.length(), i += 1 ){
+			str a = class.attrs[i]
+			cls[a] = values[i]
+		}
+
+		<- cls
+    }
+}
