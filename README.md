@@ -16,4 +16,8 @@ This module provides mathematical functions and constants. It is included by def
 
 This module provides functions to debug your code and print information, error, log and warning messages.
 
+- ## [pp(printpretty)](pp)
+
+This module provides custom functions to print/display arrays and objects in a prettier way.
+
 [back to top](README.md)

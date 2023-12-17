@@ -1,0 +1,14 @@
+import pp
+
+obj o = {
+    a:3,
+    b:63,
+    c:23.1
+}
+
+array a = [1, 8, 23890, 3248, 8293]
+
+output(pp.obj_(o))
+output(pp.array_(a))
+
+
