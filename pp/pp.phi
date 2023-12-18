@@ -1,6 +1,6 @@
 export obj pp = {
 	obj_:fn ~(object){
-		str result = "{\"
+		str result = "{\n"
 		array key = object.keys()
 		array values = object.items()
 
@@ -8,16 +8,16 @@ export obj pp = {
 			result += key[i]
 			result += ":"
 			result += values[i]
-			result += "\"
+			result += "\n"
 		}
 
 		<- result + "}"
 	},
 	array_:fn ~(arr){
-		str result = "[\"
+		str result = "[\n"
 		for (int i, i < arr.length(), i += 1){
 			result += arr[i]
-			result += "\"
+			result += "\n"
 		}
 		<- result + "]"
 	}
