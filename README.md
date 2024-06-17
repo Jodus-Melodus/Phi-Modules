@@ -1,6 +1,7 @@
 # Phi-Modules
 
-This contains the modules for the Phi programming language.
+This contains the modules for the Phi scripting language.
+You can find the scripting language [here](https://github.com/Jodus-Melodus/Phi)
 
 ## Modules
 
